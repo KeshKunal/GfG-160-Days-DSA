@@ -7,7 +7,8 @@ Decrease the height of the tower by K
 Find out the minimum possible difference between the height of the shortest and tallest towers after you have modified each tower.
 */
 
- int getMinDiff(vector<int> &arr, int k) {
+ int getMinDiff(vector<int> &arr, int k)
+  {
         // code here
         int n=arr.size();
         
